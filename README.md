@@ -1,6 +1,6 @@
 # Sudarshan Vashisht
 
-### DevOps · SRE · Cloud — 2027 fresher (Linux, Kubernetes, Docker, CI/CD, GitOps, IaC)
+### DevOps · SRE · Cloud —  (Linux, Kubernetes, Docker, CI/CD, GitOps, IaC)
 
 <p>
   <a href="https://www.linkedin.com/in/sudarshan-vashisht-249380296/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
