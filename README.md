@@ -81,15 +81,9 @@ Stack: Python, FastAPI, Next.js, Kubernetes, kubectl, OpenRouter LLM, Docker Com
 
 Link: https://github.com/sudarshanvashisht/Kubernetes-AI-Troubleshooting-Agent
 
-```mermaid
-flowchart LR
-    U[Engineer] --> UI[Next.js Dashboard]
-    UI --> API[FastAPI]
-    API --> K8s[Kubernetes cluster]
-    K8s --> Ev[Evidence]
-    Ev --> AI[AI SRE agent]
-    AI --> Out[Root cause + fix + kubectl]
-    Out --> UI
+```
+Engineer -> Next.js Dashboard -> FastAPI -> Kubernetes cluster
+                                         -> Evidence -> AI SRE agent -> Root cause + fix + kubectl -> Dashboard
 ```
 
 ### EduCenter OS — Cloud-Native Deployment Platform
@@ -101,6 +95,11 @@ Stack: Next.js, FastAPI, PostgreSQL, Docker, K3s, Helm, Argo CD, Prometheus, Gra
 - Deploys frontend, backend and PostgreSQL on a self-managed K3s homelab cluster.
 - GitOps via Argo CD with auto-sync and self-heal from the GitHub repo.
 - Prometheus and Grafana dashboards for cluster and application metrics.
+
+```
+GitHub -> Argo CD -> K3s cluster -> Frontend + Backend + Postgres
+                                 -> Prometheus + Grafana
+```
 
 Link: https://github.com/sudarshanvashisht/educenter-os
 
